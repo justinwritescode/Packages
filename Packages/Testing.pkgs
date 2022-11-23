@@ -1,0 +1,25 @@
+<!--
+ Testing.pkgs
+ 
+   Created: 2022-10-21-11:40:42
+   Modified: 2022-11-01-03:54:31
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+	<ItemGroup Label="Testing">
+		<PackageReference Update="Microsoft.NET.Test.Sdk" Version="[17.1.0,)" PrivateAssets="All" />
+		<PackageReference Update="xunit" Version="[2.4.1,)" PrivateAssets="All" />
+		<PackageReference Update="xunit.runner.visualstudio" Version="[2.4.3,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
+		<PackageReference Update="coverlet.collector" Version="[3.1.2,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
+		<PackageReference Update="Microsoft.TestPlatform" Version="[17.2,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
+		<PackageReference Update="NSubstitute.Analyzers.CSharp" Version="[1.0.15,)" />
+		<PackageReference Update="NSubstitute" Version="[4.4.0,)" />
+		<PackageReference Update="MSBuild.ProjectCreation" Version="[8.3.0,)" />
+		<PackageReference Update="FluentAssertions" Version="[6.8.0,)" />
+	</ItemGroup>
+</Project>

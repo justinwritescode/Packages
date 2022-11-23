@@ -1,0 +1,25 @@
+<!--
+ GlobalCodeGenerators.pkgs
+ 
+   Created: 2022-10-21-08:40:42
+   Modified: 2022-10-30-10:51:38
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+		<PropertyGroup>
+			<ThisAssemblyNamespace />
+			<EnableGlobalCodeGenerators>false</EnableGlobalCodeGenerators>
+		</PropertyGroup>
+		<ItemGroup Label="Global Code Generators">
+				<!-- Global Code Generators -->
+			<GlobalPackageReference Include="ThisAssembly" Version="[1.0.9,)" PrivateAssets="All" IncludeAssets="build; analyzers;" Condition="'$(EnableGlobalCodeGenerators)' != 'false' And '$(EnableThisAssembly)' != 'false'" />
+			<GlobalPackageReference Include="FluentBuilder" Version="[0.7.1,)" PrivateAssets="All" IncludeAssets="build; analyzers;"  Condition="'$(EnableGlobalCodeGenerators)' != 'false' And '$(EnableFluentBuilder)' != 'false'" />
+			<!-- <GlobalPackageReference Include="Supernova.Enum.Generators" Version="[1.0.12,)" PrivateAssets="All" IncludeAssets="build; analyzers;" Condition="'$(EnableGlobalCodeGenerators)' != 'false' And '$(EnablrEnumGenerator)' != 'false'" /> -->
+			<!-- <GlobalPackageReference Include="EnumerationClassGenerator" Version="[0.0.3,)" PrivateAssets="All" IncludeAssets="build; analyzers;" Condition="'$(EnableGlobalCodeGenerators)' != 'false' And '$(EnableEnumGenerator)' != 'false'" /> -->
+		</ItemGroup>
+</Project>

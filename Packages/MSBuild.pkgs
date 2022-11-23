@@ -1,0 +1,21 @@
+<!--
+ * MSBuild.pkgs
+ * 
+ *   Created: 2022-10-21-11:40:42
+ *   Modified: 2022-11-10-08:59:25
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+<Project>
+  <ItemGroup Label="MSBuild">
+    <PackageReference Update="Microsoft.Build.Framework" Version="[17.3.2,)" PrivateAssets="None" ExcludeAssets="Runtime" />
+    <PackageReference Update="Microsoft.Build.Utilities.Core" Version="[17.3.2,)" PrivateAssets="None" ExcludeAssets="Runtime" />    
+    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[15.9.20,)" Condition="$(TargetFramework) == ''" ExcludeAssets="Runtime" />
+    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[15.9.20,)" Condition="$(TargetFramework) == 'netstandard2.0'" ExcludeAssets="Runtime" />
+    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[17.3.2,)" Condition="$(TargetFramework) == 'net6.0'" ExcludeAssets="Runtime" />
+    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[17.3.2,)" Condition="$(TargetFramework) == 'net7.0'" ExcludeAssets="Runtime" />
+  </ItemGroup>
+</Project>

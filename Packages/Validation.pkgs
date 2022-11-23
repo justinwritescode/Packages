@@ -1,0 +1,6 @@
+<Project>
+  <ItemGroup>
+    <GlobalPackageReference Include="Stef.Validation" Version="0.1.0"  Condition="'$(ImportlobalCodeGenerators)' != 'false' And '$(ImportValidation)' != 'false'" />
+    <PackageReference Update="FluentValidation" Version="11.3.0" />
+  </ItemGroup>
+</Project>

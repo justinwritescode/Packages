@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#16332F",
+        "titleBar.activeBackground": "#1F4741",
+        "titleBar.activeForeground": "#F7FBFB"
+    },
+    "psi-header.changes-tracking": {
+        "autoHeader": false,
+        "enforceHeader": false
+    }
+}

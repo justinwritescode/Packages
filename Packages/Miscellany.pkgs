@@ -1,0 +1,26 @@
+<!--
+ Miscellany.pkgs
+ 
+   Created: 2022-10-21-11:40:42
+   Modified: 2022-11-01-06:08:30
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+   <ItemGroup>
+    <PackageReference Update="ProxyInterfaceGenerator" Version="[0.0.24,)" />
+    <PackageReference Update="ConfigurationSubstitutor" Version="[1.5.0,)" />
+    <PackageReference Update="libphonenumber-csharp" Version="[8.12.57,)" />
+    <PackageReference Update="Enumeration" Version="[2.0.0,)" />
+    <PackageReference Update="InterfaceGenerator" Version="[1.0.12,)" IncludeAssets="Analyzers, Build, Compile" PrivateAssets="All" />
+    <PackageReference Update="VsTools.Projects" Version="[1.2.0,)" />
+    <PackageReference Update="GoLive.Generator.StronglyTypedEmbeddedResources" Version="[1.0.1,)" />
+    <PackageReference Update="Ben.Demystifyier" Version="[0.4.1,)" />
+    <PackageReference Update="Ardalis.SmartEnum" Version="2.1.0" />
+	 <PackageReference Update="ProxyInterfaceSourceGenerator" Version="[0.0.25,)" />
+   </ItemGroup>
+</Project>
