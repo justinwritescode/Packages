@@ -6,7 +6,8 @@
     <JustInTimeVersioningVersion>0.0.3</JustInTimeVersioningVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Update="Aardvark.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Aardvark.Usings'" />
+    <PackageReference Update="Aardvark.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Aardvark.Usings'" />
+    <PackageReference Update="AnyOf.Net7.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'AnyOf.Net7.Usings'" />
     <PackageReference Update="AnyOf.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'AnyOf.Usings'" />
     <PackageReference Update="AspNetCore.Versioning.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'AspNetCore.Versioning.Usings'" />
     <PackageReference Update="Azure.Config.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Azure.Config.Usings'" />
@@ -14,15 +15,17 @@
     <PackageReference Update="Azure.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Azure.Usings'" />
     <PackageReference Update="AzureFunctions.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'AzureFunctions.Usings'" />
     <PackageReference Update="ConfigurationSubstitution.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'ConfigurationSubstitution.Usings'" />
-    <PackageReference Update="FluentAssertions.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'FluentAssertions.Usings'" />
-    <PackageReference Update="FluentValidation.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'FluentValidation.Usings'" />
+    <PackageReference Update="FluentAssertions.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'FluentAssertions.Usings'" />
+    <PackageReference Update="FluentValidation.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'FluentValidation.Usings'" />
     <PackageReference Update="GetCommandLineArgs" Version="[0.0.1, )" Condition="'$(PackageId)' != 'GetCommandLineArgs'" />
     <PackageReference Update="JustInTimeVersioning" Version="[0.0.3, )" Condition="'$(PackageId)' != 'JustInTimeVersioning'" />
     <PackageReference Update="JustInTimeVersioning.Sdk" Version="[0.0.2, )" Condition="'$(PackageId)' != 'JustInTimeVersioning.Sdk'" />
     <PackageReference Update="JustInTimeVersioningSdk" Version="[0.0.3, )" Condition="'$(PackageId)' != 'JustInTimeVersioningSdk'" />
     <PackageReference Update="JustinWritesCode.Abstractions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Abstractions'" />
-    <PackageReference Update="JustinWritesCode.CodeGeneration" Version="[0.0.0-preview.0.2, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration'" />
-    <PackageReference Update="JustinWritesCode.CodeGeneration.Constants" Version="[0.0.0-preview.0.2, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Constants'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Abstractions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Abstractions'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Constants" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Constants'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Extensions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Extensions'" />
     <PackageReference Update="JustinWritesCode.ComponentModel" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.ComponentModel'" />
     <PackageReference Update="JustinWritesCode.Domain" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Domain'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore'" />
@@ -35,50 +38,62 @@
     <PackageReference Update="JustinWritesCode.EntityFrameworkCorextensions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCorextensions'" />
     <PackageReference Update="JustinWritesCode.Enumeration" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumeration'" />
     <PackageReference Update="JustinWritesCode.Enumerations" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations'" />
-    <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration" Version="[0.0.2-preview.0.4, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.Abstractions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Abstractions'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.Enumeration" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Enumeration'" />
     <PackageReference Update="JustinWritesCode.Enums" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enums'" />
     <PackageReference Update="JustinWritesCode.Extensions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Extensions'" />
+    <PackageReference Update="JustinWritesCode.Http" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http'" />
+    <PackageReference Update="JustinWritesCode.Http.Extensions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http.Extensions'" />
     <PackageReference Update="JustinWritesCode.JustInTimeVersioning" Version="[0.0.8, )" Condition="'$(PackageId)' != 'JustinWritesCode.JustInTimeVersioning'" />
+    <PackageReference Update="JustinWritesCode.Payloads" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Payloads'" />
     <PackageReference Update="JustinWritesCode.Types" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.Types'" />
-    <PackageReference Update="JustinWritesCode.TypesEnumerationsTests" Version="[0.0.2-preview.0.4, )" Condition="'$(PackageId)' != 'JustinWritesCode.TypesEnumerationsTests'" />
-    <PackageReference Update="MediatR.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'MediatR.Usings'" />
+    <PackageReference Update="JustinWritesCode.TypesEnumerationsTests" Version="[0.0.1, )" Condition="'$(PackageId)' != 'JustinWritesCode.TypesEnumerationsTests'" />
+    <PackageReference Update="MediatR.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'MediatR.Usings'" />
     <PackageReference Update="Microsoft.AspNetCore.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.AspNetCore.Usings'" />
-    <PackageReference Update="Microsoft.EntityFrameworkCore.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.EntityFrameworkCore.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.All.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.All.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.EnvironmentVariables.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.EnvironmentVariables.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.Files.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Files.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.Json.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Json.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.UserSecrets.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.UserSecrets.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Configuration.Xml.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Xml.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.DependencyInjection.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.DependencyInjection.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Logging.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Logging.Usings'" />
-    <PackageReference Update="Microsoft.Extensions.Options.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Options.Usings'" />
+    <PackageReference Update="Microsoft.EntityFrameworkCore.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.EntityFrameworkCore.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.All.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.All.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.All.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.All.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.CommandLine.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.CommandLine.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.EnvironmentVariables.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.EnvironmentVariables.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.Files.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Files.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.Ini.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Ini.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.Json.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Json.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.UserSecrets.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.UserSecrets.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Configuration.Xml.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Configuration.Xml.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.DependencyInjection.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.DependencyInjection.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Logging.Usings'" />
+    <PackageReference Update="Microsoft.Extensions.Options.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Options.Usings'" />
     <PackageReference Update="Microsoft.Extensions.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Usings'" />
-    <PackageReference Update="Microsoft.OpenApi.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Microsoft.OpenApi.Usings'" />
+    <PackageReference Update="Microsoft.Net.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.Net.Usings'" />
+    <PackageReference Update="Microsoft.OpenApi.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Microsoft.OpenApi.Usings'" />
     <PackageReference Update="MSBuild.EnsureFileHeaders" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MSBuild.EnsureFileHeaders'" />
-    <PackageReference Update="MSBuild.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'MSBuild.Usings'" />
+    <PackageReference Update="MSBuild.Extensions" Version="[0.0.1, )" Condition="'$(PackageId)' != 'MSBuild.Extensions'" />
+    <PackageReference Update="MSBuild.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'MSBuild.Usings'" />
     <PackageReference Update="MSBuild.UsingsSdk" Version="[0.0.1, )" Condition="'$(PackageId)' != 'MSBuild.UsingsSdk'" />
-    <PackageReference Update="Newtonsoft.Json.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Newtonsoft.Json.Usings'" />
+    <PackageReference Update="Net.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Net.Usings'" />
+    <PackageReference Update="Newtonsoft.Json.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Newtonsoft.Json.Usings'" />
     <PackageReference Update="RestoreCommonFiles" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'RestoreCommonFiles'" />
     <PackageReference Update="RestoreProj" Version="[0.0.0-alpha.0.67, )" Condition="'$(PackageId)' != 'RestoreProj'" />
     <PackageReference Update="RestoreProjSdk" Version="[0.0.3, )" Condition="'$(PackageId)' != 'RestoreProjSdk'" />
     <PackageReference Update="RestoreSharedFilesTargets" Version="[0.0.0-preview.0.67, )" Condition="'$(PackageId)' != 'RestoreSharedFilesTargets'" />
-    <PackageReference Update="Swashbuckle.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Swashbuckle.Usings'" />
-    <PackageReference Update="System.All.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.All.Usings'" />
-    <PackageReference Update="System.Collections.Generic.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Collections.Generic.Usings'" />
-    <PackageReference Update="System.Collections.ObjectModel.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Collections.ObjectModel.Usings'" />
-    <PackageReference Update="System.Collections.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
-    <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
-    <PackageReference Update="System.Linq.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
-    <PackageReference Update="System.Net.Mime.MediaTypeNames.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.Usings'" />
-    <PackageReference Update="System.Reflection.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Reflection.Usings'" />
-    <PackageReference Update="System.Security.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Security.Usings'" />
+    <PackageReference Update="Swashbuckle.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Swashbuckle.Usings'" />
+    <PackageReference Update="System.All.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.All.Usings'" />
+    <PackageReference Update="System.Collections.Generic.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Collections.Generic.Usings'" />
+    <PackageReference Update="System.Collections.ObjectModel.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Collections.ObjectModel.Usings'" />
+    <PackageReference Update="System.Collections.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
+    <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
+    <PackageReference Update="System.Linq.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
+    <PackageReference Update="System.Net.Mime.MediaTypeNames.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.Usings'" />
+    <PackageReference Update="System.Reflection.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Reflection.Usings'" />
+    <PackageReference Update="System.Security.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Security.Usings'" />
     <PackageReference Update="System.Text.Json.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Text.Json.Usings'" />
     <PackageReference Update="System.Text.RegularExpressions.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Text.RegularExpressions.Usings'" />
-    <PackageReference Update="System.Text.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Text.Usings'" />
+    <PackageReference Update="System.Text.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Text.Usings'" />
     <PackageReference Update="System.Threading.Tasks.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Threading.Tasks.Usings'" />
-    <PackageReference Update="System.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'System.Usings'" />
+    <PackageReference Update="System.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Usings'" />
     <PackageReference Update="UsingsSdk" Version="[0.0.2, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
     <PackageReference Update="Web-Net.Usings" Version="[0.0.2, )" Condition="'$(PackageId)' != 'Web-Net.Usings'" />
+    <PackageReference Update="Xunit.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'Xunit.Usings'" />
   </ItemGroup>
 </Project>

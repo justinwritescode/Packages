@@ -1,3 +1,15 @@
+<!--
+ * Testing.EfCore.pkgs
+ * 
+ *   Created: 2022-11-23-07:06:33
+ *   Modified: 2022-11-23-02:48:19
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
 <Project>
 	<ItemGroup Label="Testing">
 		<PackageReference Update="EntityFrameworkCore.Testing.NSubstitute" Version="[4.0.2,)" />

@@ -17,6 +17,7 @@
     <PackageReference Update="Backroom.Bots.Contests.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Contests.EntityFrameworkCore'" />
     <PackageReference Update="Backroom.Bots.Contests.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Contests.Models'" />
     <PackageReference Update="ConfigurationSubstitution.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'ConfigurationSubstitution.Usings'" />
+    <PackageReference Update="CsprojPackager" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'CsprojPackager'" />
     <PackageReference Update="FluentAssertions.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'FluentAssertions.Usings'" />
     <PackageReference Update="FluentValidation.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'FluentValidation.Usings'" />
     <PackageReference Update="GetCommandLineArgs" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'GetCommandLineArgs'" />
@@ -25,14 +26,17 @@
     <PackageReference Update="JustinWritesCode.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Abstractions'" />
     <PackageReference Update="JustinWritesCode.AzureFunctions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AzureFunctions'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Abstractions'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Constants'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Extensions'" />
     <PackageReference Update="JustinWritesCode.ComponentModel" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.ComponentModel'" />
     <PackageReference Update="JustinWritesCode.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Constants'" />
+    <PackageReference Update="JustinWritesCode.Domain" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Domain'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Abstractions'" />
     <PackageReference Update="JustinWritesCode.Enumerations.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Abstractions'" />
     <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration'" />
     <PackageReference Update="JustinWritesCode.Enumerations.Enumeration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Enumeration'" />
+    <PackageReference Update="JustinWritesCode.Enums" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enums'" />
     <PackageReference Update="JustinWritesCode.Functions.Numbers" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Functions.Numbers'" />
     <PackageReference Update="JustinWritesCode.Http" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http'" />
     <PackageReference Update="JustinWritesCode.Http.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http.Extensions'" />
@@ -57,7 +61,9 @@
     <PackageReference Update="Microsoft.Extensions.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.Usings'" />
     <PackageReference Update="Microsoft.Net.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.Net.Usings'" />
     <PackageReference Update="Microsoft.OpenApi.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.OpenApi.Usings'" />
+    <PackageReference Update="MSBuild.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MSBuild.Extensions'" />
     <PackageReference Update="MSBuild.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MSBuild.Usings'" />
+    <PackageReference Update="MSBuild.Utils" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MSBuild.Utils'" />
     <PackageReference Update="Net.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Net.Usings'" />
     <PackageReference Update="Newtonsoft.Json.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Newtonsoft.Json.Usings'" />
     <PackageReference Update="Swashbuckle.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Swashbuckle.Usings'" />
@@ -67,6 +73,7 @@
     <PackageReference Update="System.Collections.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
     <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
     <PackageReference Update="System.Linq.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
+    <PackageReference Update="System.Net.Mime.MediaTypeNames.netstandard2.0Patch" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.netstandard2.0Patch'" />
     <PackageReference Update="System.Net.Mime.MediaTypeNames.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.Usings'" />
     <PackageReference Update="System.Reflection.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Reflection.Usings'" />
     <PackageReference Update="System.Security.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Security.Usings'" />
@@ -76,7 +83,7 @@
     <PackageReference Update="System.Threading.Tasks.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Threading.Tasks.Usings'" />
     <PackageReference Update="System.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Usings'" />
     <PackageReference Update="SystemAllUsings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SystemAllUsings'" />
-    <PackageReference Update="UsingsSdk" Version="[1.0.0, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
+    <PackageReference Update="UsingsSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
     <PackageReference Update="Xunit.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Xunit.Usings'" />
   </ItemGroup>
 </Project>

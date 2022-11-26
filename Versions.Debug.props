@@ -59,6 +59,7 @@
     <PackageReference Update="System.Collections.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
     <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
     <PackageReference Update="System.Linq.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
+    <PackageReference Update="System.Net.Mime.MediaTypeNames.netstandard2.0Patch" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.netstandard2.0Patch'" />
     <PackageReference Update="System.Net.Mime.MediaTypeNames.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.Usings'" />
     <PackageReference Update="System.Reflection.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Reflection.Usings'" />
     <PackageReference Update="System.Security.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Security.Usings'" />
@@ -67,6 +68,6 @@
     <PackageReference Update="System.Text.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Text.Usings'" />
     <PackageReference Update="System.Threading.Tasks.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Threading.Tasks.Usings'" />
     <PackageReference Update="System.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Usings'" />
-    <PackageReference Update="UsingsSdk" Version="[0.0.0-beta.0.14, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
+    <PackageReference Update="UsingsSdk" Version="[0.0.2, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
   </ItemGroup>
 </Project>

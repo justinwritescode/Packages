@@ -1,3 +1,15 @@
+<!--
+ * Azure.pkgs
+ * 
+ *   Created: 2022-11-23-07:06:33
+ *   Modified: 2022-11-23-02:46:44
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
 <Project>
     <ItemGroup Label="Azure">
 		<PackageReference Update="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="[1.2.2,)" Source="nuget" />

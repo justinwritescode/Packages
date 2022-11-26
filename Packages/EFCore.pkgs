@@ -21,8 +21,8 @@
 		<PackageReference Update="Microsoft.EntityFrameworkCore.Tools" Version="$(EfCoreVersion)" />
 		<PackageReference Update="Microsoft.EntityFrameworkCore.Design" Version="$(EfCoreVersion)" />
 		<PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="[1.1.6,)" />
-		<PackageReference Update="Microsoft.Extensions.Identity.Core" Version="7.0.0" />
-		
+	
+		<PackageReference Update="Microsoft.EntityFrameworkCore.InMemory" Version="$(EfCoreVersion)" />
 		<PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />
 		<PackageReference Update="EntityFrameworkCore.Data.Repository.Abstractions" Version="6.0.9" />
 		<PackageReference Update="EntityFrameworkCore.Data.UnitOfWork.Abstractions" Version="6.0.9" />

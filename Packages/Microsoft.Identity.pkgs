@@ -1,0 +1,18 @@
+<!--
+ * Microsoft.Identity.pkgs
+ * 
+ *   Created: 2022-11-26-10:37:09
+ *   Modified: 2022-11-26-10:37:09
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Extensions.Identity.Core" Version="[Microsoft.Extensions.Identity.Stores.8.0.0-JustinWritesCodeMods,)" />
+		<PackageReference Update="Microsoft.Extensions.Identity.Stores" Version="[Microsoft.Extensions.Identity.Stores.8.0.0-JustinWritesCodeMods,)" />
+  </ItemGroup>
+</Project>

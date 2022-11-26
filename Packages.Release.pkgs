@@ -1,3 +1,19 @@
+<!--
+ * Packages.Release.pkgs
+ * 
+ *   Created: 2022-11-23-07:06:33
+ *   Modified: 2022-11-23-02:46:22
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
 <Project>
   <Import Project="./Versions.Release.props" />
+  <Import Project="./Packages.pkgs" />
+  <Target Name="Foo">
+    <Message Text="Imported package references: @(PackageReference)" Importance="High" />
+  </Target>
 </Project>
