@@ -11,56 +11,56 @@
 -->
 
 <Project>
-	<ItemGroup Label="Compatible With .NET Standard 2.0 Only">
-		<NetStandard20CompatibleFramework Include="netstandard2.0" />
-		<NetStandard20CompatibleFramework Include="netcoreapp2.0" />
-		<NetStandard20CompatibleFramework Include="netcoreapp2.1" />
-		<NetStandard20CompatibleFramework Include="netcoreapp2.2" />
-		<NetStandard20CompatibleFramework Include="net461" />
-		<NetStandard20CompatibleFramework Include="net462" />
-		<NetStandard20CompatibleFramework Include="net47" />
-		<NetStandard20CompatibleFramework Include="net471" />
-		<NetStandard20CompatibleFramework Include="net472" />
-		<NetStandard20CompatibleFramework Include="net48" />
-	</ItemGroup>
-	<ItemGroup Label="Compat with .NET Standard 2.1">
-		<NetStandard21CompatibleFramework Include="netcoreapp3.0" />
-		<NetStandard21CompatibleFramework Include="netcoreapp3.1" />
-		<NetStandard21CompatibleFramework Include="netcoreapp5.0" />
-		<NetStandard21CompatibleFramework Include="net6.0" />
-	</ItemGroup>
-	<ItemGroup Label="Compat with .NET 6.0 and above">
-		<Net60CompatibleFramework Include="net6.0" />
-		<Net70CompatibleFramework Include="net7.0" />
-	</ItemGroup>
-	<ItemGroup Label="Compat with .NET 7.0 and above">
-		<Net70CompatibleFramework Include="net7.0" />
-	</ItemGroup>
-	<PropertyGroup Label="Master Versions">
-		<TargetFrameworkIsNetStandard20Compatible>$(NetStandard20CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNetStandard20Compatible>
-		<DefineConstants Condition="'$(TargetFrameworkIsNetStandard20Compatible)' == 'true'">$(DefineConstants);ISNETSTANDARD20COMPATIBLE</DefineConstants>
-		<TargetFrameworkIsNetStandard21Compatible>$(NetStandard21CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNetStandard21Compatible>
-		<DefineConstants Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true'">$(DefineConstants);ISNETSTANDARD21COMPATIBLE</DefineConstants>
-		<TargetFrameworkIsNet60Compatible>$(Net60CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNet60Compatible>
-		<DefineConstants Condition="'$(TargetFrameworkIsNet60Compatible)' == 'true'">$(DefineConstants);ISNET60COMPATIBLE</DefineConstants>
-		<TargetFrameworkIsNet70Compatible>$(Net70CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNet70Compatible>
-		<DefineConstants Condition="'$(TargetFrameworkIsNet70Compatible)' == 'true'">$(DefineConstants);ISNET70COMPATIBLE</DefineConstants>
-	</PropertyGroup>
-	<PropertyGroup Label="EFCore">
-		<EfCoreVersion>[3.1.27,)</EfCoreVersion>
-		<EfCoreVersion Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true'">[5.0.17,)</EfCoreVersion>
-		<EfCoreVersion Condition="'$(TargetFrameworkIsNet60Compatible)' == 'true'">[7.0.0,)</EfCoreVersion>
-		<EfCoreVersion Condition="'$(TargetFrameworkIsNet70Compatible)' == 'true'">[7.0.0,)</EfCoreVersion>
-	</PropertyGroup>
-	<PropertyGroup Label="MediatR (.NET Standard 2.0)" Condition="'$(TargetFrameworkIsNetStandard20Compatible)' == 'true'">
-		<MediatRVersion>[9.0.0,)</MediatRVersion>
-		<MediatRExtensionsFluentValidationAspNetCoreVersion>[1.2.0,)</MediatRExtensionsFluentValidationAspNetCoreVersion>
-	</PropertyGroup>
-	<PropertyGroup Label="MediatR (&gt;= .NET Standard 2.1)" Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true' Or '$(TargetFrameworkIsNet60Compatible)' == 'true'">
-		<MediatRVersion>[11.0.0,)</MediatRVersion>
-		<MediatRExtensionsFluentValidationAspNetCoreVersion>[3.0.0,)</MediatRExtensionsFluentValidationAspNetCoreVersion>
-	</PropertyGroup>
-	<PropertyGroup>
-		<MediatRContractsVersion>[1.0.1,)</MediatRContractsVersion>
-	</PropertyGroup>
+    <ItemGroup Label="Compatible With .NET Standard 2.0 Only">
+        <NetStandard20CompatibleFramework Include="netstandard2.0" />
+        <NetStandard20CompatibleFramework Include="netcoreapp2.0" />
+        <NetStandard20CompatibleFramework Include="netcoreapp2.1" />
+        <NetStandard20CompatibleFramework Include="netcoreapp2.2" />
+        <NetStandard20CompatibleFramework Include="net461" />
+        <NetStandard20CompatibleFramework Include="net462" />
+        <NetStandard20CompatibleFramework Include="net47" />
+        <NetStandard20CompatibleFramework Include="net471" />
+        <NetStandard20CompatibleFramework Include="net472" />
+        <NetStandard20CompatibleFramework Include="net48" />
+    </ItemGroup>
+    <ItemGroup Label="Compat with .NET Standard 2.1">
+        <NetStandard21CompatibleFramework Include="netcoreapp3.0" />
+        <NetStandard21CompatibleFramework Include="netcoreapp3.1" />
+        <NetStandard21CompatibleFramework Include="netcoreapp5.0" />
+        <NetStandard21CompatibleFramework Include="net6.0" />
+    </ItemGroup>
+    <ItemGroup Label="Compat with .NET 6.0 and above">
+        <Net60CompatibleFramework Include="net6.0" />
+        <Net70CompatibleFramework Include="net7.0" />
+    </ItemGroup>
+    <ItemGroup Label="Compat with .NET 7.0 and above">
+        <Net70CompatibleFramework Include="net7.0" />
+    </ItemGroup>
+    <PropertyGroup Label="Master Versions">
+        <TargetFrameworkIsNetStandard20Compatible>$(NetStandard20CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNetStandard20Compatible>
+        <DefineConstants Condition="'$(TargetFrameworkIsNetStandard20Compatible)' == 'true'">$(DefineConstants);ISNETSTANDARD20COMPATIBLE</DefineConstants>
+        <TargetFrameworkIsNetStandard21Compatible>$(NetStandard21CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNetStandard21Compatible>
+        <DefineConstants Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true'">$(DefineConstants);ISNETSTANDARD21COMPATIBLE</DefineConstants>
+        <TargetFrameworkIsNet60Compatible>$(Net60CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNet60Compatible>
+        <DefineConstants Condition="'$(TargetFrameworkIsNet60Compatible)' == 'true'">$(DefineConstants);ISNET60COMPATIBLE</DefineConstants>
+        <TargetFrameworkIsNet70Compatible>$(Net70CompatibleFramework.Contains('$TargetFramework'))</TargetFrameworkIsNet70Compatible>
+        <DefineConstants Condition="'$(TargetFrameworkIsNet70Compatible)' == 'true'">$(DefineConstants);ISNET70COMPATIBLE</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Label="EFCore">
+        <EfCoreVersion>[3.1.27,)</EfCoreVersion>
+        <EfCoreVersion Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true'">[5.0.17,)</EfCoreVersion>
+        <EfCoreVersion Condition="'$(TargetFrameworkIsNet60Compatible)' == 'true'">[7.0.0,)</EfCoreVersion>
+        <EfCoreVersion Condition="'$(TargetFrameworkIsNet70Compatible)' == 'true'">[7.0.0,)</EfCoreVersion>
+    </PropertyGroup>
+    <PropertyGroup Label="MediatR (.NET Standard 2.0)" Condition="'$(TargetFrameworkIsNetStandard20Compatible)' == 'true'">
+        <MediatRVersion>[9.0.0,)</MediatRVersion>
+        <MediatRExtensionsFluentValidationAspNetCoreVersion>[1.2.0,)</MediatRExtensionsFluentValidationAspNetCoreVersion>
+    </PropertyGroup>
+    <PropertyGroup Label="MediatR (&gt;= .NET Standard 2.1)" Condition="'$(TargetFrameworkIsNetStandard21Compatible)' == 'true' Or '$(TargetFrameworkIsNet60Compatible)' == 'true'">
+        <MediatRVersion>[11.0.0,)</MediatRVersion>
+        <MediatRExtensionsFluentValidationAspNetCoreVersion>[3.0.0,)</MediatRExtensionsFluentValidationAspNetCoreVersion>
+    </PropertyGroup>
+    <PropertyGroup>
+        <MediatRContractsVersion>[1.0.1,)</MediatRContractsVersion>
+    </PropertyGroup>
 </Project>

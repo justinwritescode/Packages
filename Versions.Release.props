@@ -84,6 +84,7 @@
     <PackageReference Update="System.Collections.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
     <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
     <PackageReference Update="System.Linq.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
+    <PackageReference Update="System.Net.Mime.MediaTypeNames.netstandard2.0Patch" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.netstandard2.0Patch'" />
     <PackageReference Update="System.Net.Mime.MediaTypeNames.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames.Usings'" />
     <PackageReference Update="System.Reflection.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Reflection.Usings'" />
     <PackageReference Update="System.Security.Usings" Version="[0.0.1, )" Condition="'$(PackageId)' != 'System.Security.Usings'" />

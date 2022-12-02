@@ -11,24 +11,24 @@
 -->
 
 <Project>
-	<ItemGroup Label="Microsoft.EntityFrameworkCore">
-		<PackageReference Update="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.Abstractions" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.Analyzers" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.Relational" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.Tools" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.Design" Version="$(EfCoreVersion)" />
-		<PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="[1.1.6,)" />
-	
-		<PackageReference Update="Microsoft.EntityFrameworkCore.InMemory" Version="$(EfCoreVersion)" />
-		<PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.Repository.Abstractions" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.UnitOfWork.Abstractions" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.AutoHistory" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.Repository" Version="6.0.9" />
-		<PackageReference Update="EntityFrameworkCore.Data.UnitOfWork" Version="6.0.9" />
-	</ItemGroup>
+    <ItemGroup Label="Microsoft.EntityFrameworkCore">
+        <PackageReference Update="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.Abstractions" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.Analyzers" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.Relational" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.Tools" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.Design" Version="$(EfCoreVersion)" />
+        <PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="[1.1.6,)" />
+    
+        <PackageReference Update="Microsoft.EntityFrameworkCore.InMemory" Version="$(EfCoreVersion)" />
+        <PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.Repository.Abstractions" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.UnitOfWork.Abstractions" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.AutoHistory" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.Repository" Version="6.0.9" />
+        <PackageReference Update="EntityFrameworkCore.Data.UnitOfWork" Version="6.0.9" />
+    </ItemGroup>
 </Project>

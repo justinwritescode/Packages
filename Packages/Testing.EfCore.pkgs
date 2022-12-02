@@ -11,7 +11,7 @@
 -->
 
 <Project>
-	<ItemGroup Label="Testing">
-		<PackageReference Update="EntityFrameworkCore.Testing.NSubstitute" Version="[4.0.2,)" />
-	</ItemGroup>
+    <ItemGroup Label="Testing">
+        <PackageReference Update="EntityFrameworkCore.Testing.NSubstitute" Version="[4.0.2,)" />
+    </ItemGroup>
 </Project>

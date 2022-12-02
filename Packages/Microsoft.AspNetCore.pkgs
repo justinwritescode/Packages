@@ -16,7 +16,9 @@
    <PackageReference Update="Microsoft.AspNetCore.Http.Abstractions" Version="[2.2.0,)" />
    <PackageReference Update="Microsoft.AspNetCore.Mvc" Version="[2.2.0,)" />
    <PackageReference Update="Microsoft.AspNet.WebApi.Client" Version="[5.2.9,)" />
-	 <PackageReference Update="Microsoft.Net.Http.Headers" Version="[2.2.8,)" />
-	 <PackageReference Update="Microsoft.AspNetCore.OpenApi" Version="[7.0.0,)" />
+   <PackageReference Update="Microsoft.Net.Http.Headers" Version="[2.2.8,)" />
+   <PackageReference Update="Microsoft.AspNetCore.OpenApi" Version="[7.0.0,)" />
+   <PackageReference Update="Microsoft.AspNetCore.App" Version="[2.2.8,)" />
+	 <PackageReference Update="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="[7.0.0,)" />
   </ItemGroup>
 </Project>

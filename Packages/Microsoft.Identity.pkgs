@@ -12,7 +12,7 @@
 
 <Project>
   <ItemGroup>
-    <PackageReference Update="Microsoft.Extensions.Identity.Core" Version="[Microsoft.Extensions.Identity.Stores.8.0.0-JustinWritesCodeMods,)" />
-		<PackageReference Update="Microsoft.Extensions.Identity.Stores" Version="[Microsoft.Extensions.Identity.Stores.8.0.0-JustinWritesCodeMods,)" />
+    <PackageReference Update="Microsoft.Extensions.Identity.Core" Version="[7.0.0,)" />
+    <PackageReference Update="Microsoft.Extensions.Identity.Stores" Version="[7.0.0,)" />
   </ItemGroup>
 </Project>
