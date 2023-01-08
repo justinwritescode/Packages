@@ -6,14 +6,14 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
-<Project InitialTargets="Foo">
+<Project InitialTargets="DisplayImportedPackageReferences">
   <Import Project="./Versions.Local.props" />
   <Import Project="./Packages.pkgs" />
-  <Target Name="Foo">
-    <Message Text="Imported package references: @(PackageReference)" />
+  <Target Name="DisplayImportedPackageReferences">
+    <Message Text="Imported package references: @(PackageReference->'%(Identity) (%(Version))')" />
   </Target>
 </Project>

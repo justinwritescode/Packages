@@ -6,17 +6,17 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 <Project>
   <ItemGroup Label="MSBuild">
-    <PackageReference Update="Microsoft.Build.Framework" Version="[17.4.0,)" PrivateAssets="None" ExcludeAssets="Runtime" />
-    <PackageReference Update="Microsoft.Build.Utilities.Core" Version="[17.4.0,)" PrivateAssets="None" ExcludeAssets="Runtime" />    
-    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[15.9.20,)" Condition="$(TargetFramework) == ''" ExcludeAssets="Runtime" />
-    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[15.9.20,)" Condition="$(TargetFramework) == 'netstandard2.0'" ExcludeAssets="Runtime" />
-    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[17.3.2,)" Condition="$(TargetFramework) == 'net6.0'" ExcludeAssets="Runtime" />
-    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="[17.3.2,)" Condition="$(TargetFramework) == 'net7.0'" ExcludeAssets="Runtime" />
-    <PackageReference Update="Microsoft.Build.Tasks.Core" PrivateAssets="None" Version="[17.4.0,)" />
+    <PackageReference Update="Microsoft.Build.Framework" Version="$(MSBuildFrameworkVersion)" PrivateAssets="None" />
+
+    <PackageReference Update="Microsoft.Build.Utilities.Core" Version="$(MSBuildCorePackageVersion)" PrivateAssets="None" />    
+
+    <PackageReference Update="Microsoft.Build" PrivateAssets="None" Version="$(MSBuildPackageVersion)" />
+    
+    <PackageReference Update="Microsoft.Build.Tasks.Core" Version="$(MSBuildCorePackageVersion)" PrivateAssets="None" />
   </ItemGroup>
 </Project>

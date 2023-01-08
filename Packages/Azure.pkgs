@@ -6,7 +6,7 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
@@ -15,5 +15,7 @@
         <PackageReference Update="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="[1.2.2,)" Source="nuget" />
         <PackageReference Update="Azure.Identity" Version="[1.6.0,)" />
         <PackageReference Update="Azure.Messaging.EventGrid" Version="[4.11.0,)" />
+        <PackageReference Update="Azure.Communication.Email" Version="1.0.0-beta.1" />
+        <PackageReference Update="Azure.Communication.Sms" Version="1.0.0" />
     </ItemGroup>
 </Project>

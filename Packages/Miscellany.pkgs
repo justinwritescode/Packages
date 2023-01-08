@@ -6,27 +6,39 @@
  
    Author: Justin Chase <justin@justinwritescode.com>
    
-   Copyright © 2022 Justin Chase, All Rights Reserved
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
       License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project>
    <ItemGroup>
-    <PackageReference Update="ProxyInterfaceGenerator" Version="[0.0.24,)" />
+    <PackageReference Update="Architect.DomainModeling" Version="[1.0.3,)" />
+    <PackageReference Update="Ardalis.SmartEnum" Version="[2.1.0,)" />
+    <PackageReference Update="Ben.Demystifier" Version="[0.4.1,)" />
     <PackageReference Update="ConfigurationSubstitutor" Version="[1.5.0,)" />
-    <PackageReference Update="libphonenumber-csharp" Version="[8.12.57,)" />
-    <PackageReference Update="Enumeration" Version="[2.0.0,)" />
-    <PackageReference Update="InterfaceGenerator" Version="[1.0.12,)" IncludeAssets="Analyzers, Build, Compile" PrivateAssets="All" />
-    <PackageReference Update="VsTools.Projects" Version="[1.2.0,)" />
-    <PackageReference Update="GoLive.Generator.StronglyTypedEmbeddedResources" Version="[1.0.1,)" />
-    <PackageReference Update="Ben.Demystifyier" Version="[0.4.1,)" />
-    <PackageReference Update="Ardalis.SmartEnum" Version="2.1.0" />
-     <PackageReference Update="ProxyInterfaceSourceGenerator" Version="[0.0.25,)" />
-    <PackageReference Update="Scriban" Version="[5.5.1,)" />
     <PackageReference Update="Dnf.SourceGenerators" Version="[1.0.0,)" />
-    <PackageReference Update="Humanizer" Version="[2.14.24-JustinWritesCodeMods,)" />
+    <PackageReference Update="Enumeration" Version="[2.0.0,)" />
+    <PackageReference Update="GoLive.Generator.StronglyTypedEmbeddedResources" Version="[1.0.1,)" />
     <PackageReference Update="Humanizer.Core" Version="[2.14.24-JustinWritesCodeMods,)" />
-    <PackageReference Update="RestSharp" Version="[108.0.3,)" />
+    <PackageReference Update="Humanizer" Version="[2.14.24-JustinWritesCodeMods,)" />
+    <PackageReference Update="InterfaceGenerator" Version="[1.0.12,)" IncludeAssets="Analyzers, Build, Compile" PrivateAssets="All" />
     <PackageReference Update="JsonSubTypes" Version="[2.0.1,)" />
+    <PackageReference Update="ProxyInterfaceGenerator" Version="[0.0.24,)" />
+    <PackageReference Update="ProxyInterfaceSourceGenerator" Version="[0.0.25,)" />
+    <PackageReference Update="RestSharp" Version="[108.0.3,)" />
+    <PackageReference Update="Scriban.Signed" Version="[5.5.1,)" />
+    <PackageReference Update="Vogen" Version="[3.0.6,)" />
+    <PackageReference Update="Vogen.SharedTypes" Version="[0.0.1,)" />
+    <PackageReference Update="VsTools.Projects" Version="[1.2.0,)" />
+    <PackageReference Update="ILRepack.MSBuild.Task" Version="[2.0.13,)" />
+    <PackageReference Update="ILRepack.Lib.MSBuild.Task" Version="[2.0.18.2,)" />
+    <PackageReference Update="CsvHelper" Version="[30.0.1,)" />
+   </ItemGroup>
+   <ItemGroup Label="libphonenumber-csharp">
+    <PackageReference Remove="libphonenumber-csharp" Condition="$(TargetFramework.Equals('netstandard1.0'))" />
+    <PackageReference Update="libphonenumber-csharp" Version="[8.13.3-signed,)" />
+    <!-- <PackageReference Remove="libphonenumber-csharp.signed" Condition="@(PackageReference->AnyHaveMetadataValue('Identity', 'libphonenumber-csharp'))" />
+    <PackageReference Update="libphonenumber-csharp" Version="[8.12.38,)" />
+    <PackageReference Update="libphonenumber-csharp" Version="[8.13.2,)" Condition="$(DefineConstants.Contains('NETSTANDARD2_0_OR_GREATER'))" /> -->
    </ItemGroup>
 </Project>

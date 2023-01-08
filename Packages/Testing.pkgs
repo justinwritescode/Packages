@@ -6,16 +6,23 @@
  
    Author: Justin Chase <justin@justinwritescode.com>
    
-   Copyright © 2022 Justin Chase, All Rights Reserved
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
       License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project>
     <ItemGroup Label="Testing">
         <PackageReference Update="coverlet.collector" Version="[3.1.2,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
-        <PackageReference Update="FluentAssertions" Version="[6.8.0,)" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Remove="FluentAssertions" Condition="'$(TargetFramework)' == 'netstandard1.0'"  />
+        <PackageReference Update="FluentAssertions" Version="[5.10.3,)" />
+        <PackageReference Update="FluentAssertions" Version="[6.8.0,)"  Condition="'$(TargetFramework)' != 'netstandard1.3'"  />
+    </ItemGroup>
+    <ItemGroup>
         <PackageReference Update="Microsoft.NET.Test.Sdk" Version="[17.1.0,)" PrivateAssets="All" />
-        <PackageReference Update="Microsoft.TestPlatform" Version="[17.2,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
+        <PackageReference Update="Microsoft.NET.Test." Version="[17.1.0,)" PrivateAssets="All" />
+        <PackageReference Update="Microsoft.TestPlatform" Version="[17.4.1,)" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="All" />
         <PackageReference Update="MSBuild.ProjectCreation" Version="[8.3.0,)" />
         <PackageReference Update="NSubstitute.Analyzers.CSharp" Version="[1.0.15,)" />
         <PackageReference Update="NSubstitute" Version="[4.4.0,)" />

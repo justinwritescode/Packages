@@ -1,4 +1,4 @@
 <Project>
-  <Import Project="./Versions.props" />
+  <!-- <Import Project="./Versions.props" Condition="'$(Versions_Props)' == ''" /> -->
   <Import Project="./Packages/*.pkgs" />
 </Project>

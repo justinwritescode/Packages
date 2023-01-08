@@ -14,44 +14,125 @@
     <PackageReference Update="Azure.Identity.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Azure.Identity.Usings'" />
     <PackageReference Update="Azure.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Azure.Usings'" />
     <PackageReference Update="AzureFunctions.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'AzureFunctions.Usings'" />
+    <PackageReference Update="Backroom.Bots.AdminApi" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.AdminApi'" />
+    <PackageReference Update="Backroom.Bots.AdminApi.MediatR" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.AdminApi.MediatR'" />
+    <PackageReference Update="Backroom.Bots.AdminBot" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.AdminBot'" />
+    <PackageReference Update="Backroom.Bots.Common.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Common.EntityFrameworkCore'" />
+    <PackageReference Update="Backroom.Bots.Common.Model" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Common.Model'" />
+    <PackageReference Update="Backroom.Bots.Common.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Common.Models'" />
+    <PackageReference Update="Backroom.Bots.Contests.Api" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Contests.Api'" />
     <PackageReference Update="Backroom.Bots.Contests.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Contests.EntityFrameworkCore'" />
     <PackageReference Update="Backroom.Bots.Contests.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.Contests.Models'" />
+    <PackageReference Update="Backroom.Bots.MessageForwarder" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Bots.MessageForwarder'" />
+    <PackageReference Update="Backroom.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Backroom.Identity'" />
     <PackageReference Update="ConfigurationSubstitution.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'ConfigurationSubstitution.Usings'" />
     <PackageReference Update="CsprojPackager" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'CsprojPackager'" />
+    <PackageReference Update="Directory.Build" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Directory.Build'" />
+    <PackageReference Update="DirZ.Api" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'DirZ.Api'" />
+    <PackageReference Update="DirZ.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'DirZ.EntityFrameworkCore'" />
+    <PackageReference Update="DirZ.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'DirZ.Models'" />
+    <PackageReference Update="EFC.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'EFC.Usings'" />
+    <PackageReference Update="EmbedProjectFile" Version="[0.0.1, )" Condition="'$(PackageId)' != 'EmbedProjectFile'" />
     <PackageReference Update="FluentAssertions.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'FluentAssertions.Usings'" />
     <PackageReference Update="FluentValidation.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'FluentValidation.Usings'" />
+    <PackageReference Update="GenerateMarkdownDocsSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'GenerateMarkdownDocsSdk'" />
     <PackageReference Update="GetCommandLineArgs" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'GetCommandLineArgs'" />
     <PackageReference Update="Humanizer.Patch" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Humanizer.Patch'" />
+    <PackageReference Update="Identity.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Identity.Usings'" />
     <PackageReference Update="JustInTimeVersioning" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustInTimeVersioning'" />
     <PackageReference Update="JustInTimeVersioningSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustInTimeVersioningSdk'" />
+    <PackageReference Update="JustinWriesCode.CodeGeneration.DtoGenerator" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWriesCode.CodeGeneration.DtoGenerator'" />
     <PackageReference Update="JustinWritesCode.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Abstractions'" />
+    <PackageReference Update="JustinWritesCode.Application.Configuration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Application.Configuration'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Authentication" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Authentication'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Authorization" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Authorization'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Controllers" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Controllers'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Controllers.SourceGenerator" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Controllers.SourceGenerator'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.ErrorHandling" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.ErrorHandling'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Exceptions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Exceptions'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Formatters" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Formatters'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Hashids" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Hashids'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Mail" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Mail'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Mvc" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Mvc'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Security" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Security'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Startup" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Startup'" />
+    <PackageReference Update="JustinWritesCode.AspNetCore.Swagger" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AspNetCore.Swagger'" />
     <PackageReference Update="JustinWritesCode.AzureFunctions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.AzureFunctions'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Abstractions'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Constants'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Constants-Scriban.Bundled" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Constants-Scriban.Bundled'" />
     <PackageReference Update="JustinWritesCode.CodeGeneration.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Extensions'" />
+    <PackageReference Update="JustinWritesCode.CodeGeneration.Testing" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.CodeGeneration.Testing'" />
+    <PackageReference Update="JustinWritesCode.com.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.com.Identity'" />
     <PackageReference Update="JustinWritesCode.ComponentModel" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.ComponentModel'" />
     <PackageReference Update="JustinWritesCode.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Constants'" />
     <PackageReference Update="JustinWritesCode.Domain" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Domain'" />
+    <PackageReference Update="JustinWritesCode.DtoGenerator.Samples" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.DtoGenerator.Samples'" />
+    <PackageReference Update="JustinWritesCode.DtoGenerator.Samples.Exe" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.DtoGenerator.Samples.Exe'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Abstractions'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Constants'" />
+    <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Entities" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Entities'" />
     <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Extensions'" />
+    <PackageReference Update="JustinWritesCode.EntityFrameworkCore.HealthCheck" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.HealthCheck'" />
+    <PackageReference Update="JustinWritesCode.EntityFrameworkCore.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.EntityFrameworkCore.Models'" />
+    <PackageReference Update="JustinWritesCode.Enumerations" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations'" />
     <PackageReference Update="JustinWritesCode.Enumerations.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Abstractions'" />
     <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration.Samples" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration.Samples'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.CodeGeneration.V2" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.CodeGeneration.V2'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.EntityFrameworkCore'" />
     <PackageReference Update="JustinWritesCode.Enumerations.Enumeration" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.Enumeration'" />
+    <PackageReference Update="JustinWritesCode.Enumerations.EnumsTests" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enumerations.EnumsTests'" />
     <PackageReference Update="JustinWritesCode.Enums" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Enums'" />
+    <PackageReference Update="JustinWritesCode.Exceptions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Exceptions'" />
     <PackageReference Update="JustinWritesCode.Functions.Numbers" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Functions.Numbers'" />
     <PackageReference Update="JustinWritesCode.Http" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http'" />
     <PackageReference Update="JustinWritesCode.Http.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Http.Extensions'" />
+    <PackageReference Update="JustinWritesCode.Idenity.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Idenity.Usings'" />
+    <PackageReference Update="JustinWritesCode.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity'" />
     <PackageReference Update="JustinWritesCode.Identity.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Abstractions'" />
+    <PackageReference Update="JustinWritesCode.Identity.All" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.All'" />
+    <PackageReference Update="JustinWritesCode.Identity.AspNetCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.AspNetCore'" />
+    <PackageReference Update="JustinWritesCode.Identity.Authorization" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Authorization'" />
+    <PackageReference Update="JustinWritesCode.Identity.Claims" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Claims'" />
+    <PackageReference Update="JustinWritesCode.Identity.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Constants'" />
+    <PackageReference Update="JustinWritesCode.Identity.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.EntityFrameworkCore'" />
+    <PackageReference Update="JustinWritesCode.Identity.EntityFrameworkCore.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.EntityFrameworkCore.Abstractions'" />
     <PackageReference Update="JustinWritesCode.Identity.EntityFrameworkCore.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.EntityFrameworkCore.Constants'" />
+    <PackageReference Update="JustinWritesCode.Identity.EntityFrameworkCore.Migrations" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.EntityFrameworkCore.Migrations'" />
     <PackageReference Update="JustinWritesCode.Identity.JustinWritesCode" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.JustinWritesCode'" />
+    <PackageReference Update="JustinWritesCode.Identity.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Models'" />
     <PackageReference Update="JustinWritesCode.Identity.SendPulse" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.SendPulse'" />
+    <PackageReference Update="JustinWritesCode.Identity.Tests" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.Tests'" />
+    <PackageReference Update="JustinWritesCode.Identity.ValueObjects" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Identity.ValueObjects'" />
+    <PackageReference Update="JustinWritesCode.InterfaceGen" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.InterfaceGen'" />
+    <PackageReference Update="JustinWritesCode.InterfaceGenerator" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.InterfaceGenerator'" />
+    <PackageReference Update="JustinWritesCode.InterfaceGenerator.Samples" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.InterfaceGenerator.Samples'" />
+    <PackageReference Update="JustinWritesCode.MediatR" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.MediatR'" />
+    <PackageReference Update="JustinWritesCode.MediatR.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.MediatR.Abstractions'" />
+    <PackageReference Update="JustinWritesCode.NuGetUtils" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.NuGetUtils'" />
     <PackageReference Update="JustinWritesCode.Payloads" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Payloads'" />
+    <PackageReference Update="JustinWritesCode.Primitives" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Primitives'" />
+    <PackageReference Update="JustinWritesCode.RegexDtoGenerator" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.RegexDtoGenerator'" />
+    <PackageReference Update="JustinWritesCode.RegexDtoGenerator.Samples" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.RegexDtoGenerator.Samples'" />
+    <PackageReference Update="JustinWritesCode.RegexDtoGenerator.Tests" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.RegexDtoGenerator.Tests'" />
+    <PackageReference Update="JustinWritesCode.Security" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Security'" />
+    <PackageReference Update="JustinWritesCode.Security.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Security.Constants'" />
+    <PackageReference Update="JustinWritesCode.Swagger" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Swagger'" />
     <PackageReference Update="JustinWritesCode.System.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.System.Extensions'" />
+    <PackageReference Update="JustinWritesCode.System.Extensions.Internal" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.System.Extensions.Internal'" />
+    <PackageReference Update="JustinWritesCode.Telegram" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Telegram'" />
+    <PackageReference Update="JustinWritesCode.TestNuGetUtils" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.TestNuGetUtils'" />
     <PackageReference Update="JustinWritesCode.Tuples" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Tuples'" />
+    <PackageReference Update="JustinWritesCode.Types.Core" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCode.Types.Core'" />
+    <PackageReference Update="JustinWritesCodeSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWritesCodeSdk'" />
+    <PackageReference Update="JustinWrritesCode.AspNetCore.Hosting.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'JustinWrritesCode.AspNetCore.Hosting.Extensions'" />
+    <PackageReference Update="MediatR" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MediatR'" />
     <PackageReference Update="MediatR.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MediatR.Usings'" />
+    <PackageReference Update="MetapackageSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MetapackageSdk'" />
     <PackageReference Update="Microsoft.AspNetCore.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.AspNetCore.Usings'" />
     <PackageReference Update="Microsoft.EntityFrameworkCore.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.EntityFrameworkCore.Usings'" />
     <PackageReference Update="Microsoft.Extensions.All.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Microsoft.Extensions.All.Usings'" />
@@ -74,14 +155,26 @@
     <PackageReference Update="MSBuild.Utils" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'MSBuild.Utils'" />
     <PackageReference Update="Net.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Net.Usings'" />
     <PackageReference Update="Newtonsoft.Json.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Newtonsoft.Json.Usings'" />
+    <PackageReference Update="NuGetPush" Version="[0.0.1, )" Condition="'$(PackageId)' != 'NuGetPush'" />
+    <PackageReference Update="ProjectFilePackager" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'ProjectFilePackager'" />
+    <PackageReference Update="ProjectPackageReferencesSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'ProjectPackageReferencesSdk'" />
     <PackageReference Update="SendPulse.Api" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api'" />
+    <PackageReference Update="SendPulse.Api.Abstractions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api.Abstractions'" />
+    <PackageReference Update="SendPulse.Api.All" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api.All'" />
+    <PackageReference Update="SendPulse.Api.DependencyInjection" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api.DependencyInjection'" />
+    <PackageReference Update="SendPulse.Api.HealthCheck" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api.HealthCheck'" />
+    <PackageReference Update="SendPulse.Api.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Api.Models'" />
+    <PackageReference Update="SendPulse.Data" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Data'" />
     <PackageReference Update="SendPulse.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Identity'" />
     <PackageReference Update="SendPulse.Telegram" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SendPulse.Telegram'" />
+    <PackageReference Update="STJ.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'STJ.Usings'" />
     <PackageReference Update="Swashbuckle.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Swashbuckle.Usings'" />
+    <PackageReference Update="Sync" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Sync'" />
     <PackageReference Update="System.All.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.All.Usings'" />
     <PackageReference Update="System.Collections.Generic.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Collections.Generic.Usings'" />
     <PackageReference Update="System.Collections.ObjectModel.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Collections.ObjectModel.Usings'" />
     <PackageReference Update="System.Collections.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Collections.Usings'" />
+    <PackageReference Update="System.Compat" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Compat'" />
     <PackageReference Update="System.ComponentModel.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.ComponentModel.Usings'" />
     <PackageReference Update="System.Linq.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Linq.Usings'" />
     <PackageReference Update="System.Net.Mime.MediaTypeNames" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Net.Mime.MediaTypeNames'" />
@@ -95,9 +188,24 @@
     <PackageReference Update="System.Threading.Tasks.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Threading.Tasks.Usings'" />
     <PackageReference Update="System.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'System.Usings'" />
     <PackageReference Update="SystemAllUsings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'SystemAllUsings'" />
+    <PackageReference Update="Telegram" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Telegram'" />
+    <PackageReference Update="Telegram.Bot.Extensions" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Telegram.Bot.Extensions'" />
+    <PackageReference Update="Telegram.Constants" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Telegram.Constants'" />
+    <PackageReference Update="Telegram.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Telegram.Identity'" />
+    <PackageReference Update="Telegram.JsonConverters" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Telegram.JsonConverters'" />
     <PackageReference Update="Test.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Test.Usings'" />
+    <PackageReference Update="Testing" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Testing'" />
+    <PackageReference Update="TestingJustinWritesCodeSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'TestingJustinWritesCodeSdk'" />
+    <PackageReference Update="TestNuGetUtils" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'TestNuGetUtils'" />
+    <PackageReference Update="tests" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'tests'" />
+    <PackageReference Update="TestUsingsSdk" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'TestUsingsSdk'" />
     <PackageReference Update="TheFuckRUIN2BBro" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'TheFuckRUIN2BBro'" />
-    <PackageReference Update="UsingsSdk" Version="[0.0.2, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
+    <PackageReference Update="UsingsSdk" Version="[0.0.3, )" Condition="'$(PackageId)' != 'UsingsSdk'" />
+    <PackageReference Update="UsingsSdk.Usings" Version="[0.0.3, )" Condition="'$(PackageId)' != 'UsingsSdk.Usings'" />
+    <PackageReference Update="WhatRUIn2BBro" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'WhatRUIn2BBro'" />
+    <PackageReference Update="WhatRUIn2BBro.EntityFrameworkCore" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'WhatRUIn2BBro.EntityFrameworkCore'" />
+    <PackageReference Update="WhatRUIn2BBro.Identity" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'WhatRUIn2BBro.Identity'" />
+    <PackageReference Update="WhatRUIn2BBro.Models" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'WhatRUIn2BBro.Models'" />
     <PackageReference Update="Xunit.Usings" Version="[0.0.1-Local, )" Condition="'$(PackageId)' != 'Xunit.Usings'" />
   </ItemGroup>
 </Project>

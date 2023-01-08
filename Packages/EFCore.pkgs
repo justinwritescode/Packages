@@ -6,13 +6,12 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project>
     <ItemGroup Label="Microsoft.EntityFrameworkCore">
-        <PackageReference Update="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(EfCoreVersion)" />
         <PackageReference Update="Microsoft.EntityFrameworkCore" Version="$(EfCoreVersion)" />
         <PackageReference Update="Microsoft.EntityFrameworkCore.Abstractions" Version="$(EfCoreVersion)" />
         <PackageReference Update="Microsoft.EntityFrameworkCore.Analyzers" Version="$(EfCoreVersion)" />
@@ -21,6 +20,7 @@
         <PackageReference Update="Microsoft.EntityFrameworkCore.Tools" Version="$(EfCoreVersion)" />
         <PackageReference Update="Microsoft.EntityFrameworkCore.Design" Version="$(EfCoreVersion)" />
         <PackageReference Update="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="[1.1.6,)" />
+        <PackageReference Update="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="$(EfCoreVersion)" />
     
         <PackageReference Update="Microsoft.EntityFrameworkCore.InMemory" Version="$(EfCoreVersion)" />
         <PackageReference Update="EntityFrameworkCore.Data.QueryBuilder.Abstractions" Version="6.0.9" />

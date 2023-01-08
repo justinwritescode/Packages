@@ -6,13 +6,13 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project>
   <ItemGroup>
-    <PackageReference Update="Microsoft.Extensions.Identity.Core" Version="[7.0.0,)" />
-    <PackageReference Update="Microsoft.Extensions.Identity.Stores" Version="[7.0.0,)" />
+    <PackageReference Update="Microsoft.Extensions.Identity.Core" Version="[7.0.1,)" />
+    <PackageReference Update="Microsoft.Extensions.Identity.Stores" Version="[7.0.1,)" />
   </ItemGroup>
 </Project>

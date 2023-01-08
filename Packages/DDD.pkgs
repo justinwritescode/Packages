@@ -1,8 +1,8 @@
 <!--
- * MSBuildProjectCreator.pkgs
+ * DDD.pkgs
  * 
- *   Created: 2022-11-23-07:06:33
- *   Modified: 2022-11-23-02:47:08
+ *   Created: 2023-01-06-03:13:37
+ *   Modified: 2023-01-06-03:13:38
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
@@ -12,7 +12,6 @@
 
 <Project>
   <ItemGroup>
-    <PackageReference Update="FlubuCore" Version="5.1.1" />
-    <PackageReference Update="MSBuild.ProjectCreation" Version="8.3.0" />
+    <PackageReference Update="Luxoft.Framework.DomainDriven.DTOGenerator" Version="17.6.1" />
   </ItemGroup>
 </Project>

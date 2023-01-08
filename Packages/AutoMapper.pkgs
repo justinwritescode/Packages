@@ -6,14 +6,15 @@
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project>
   <ItemGroup Label="AutoMapper">
       <!-- AutoMapper -->
-      <PackageReference Update="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="[11.0.0,)" />
-      <PackageReference Update="AutoMapper" Version="[11.0.0,)" />
+      <PackageReference Update="AutoMapper.Extensions.ExpressionMapping" Version="$(AutoMapperExpresionMappingVersion)" />
+      <PackageReference Update="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="$(AutoMapperDIVersion)" />
+      <PackageReference Update="AutoMapper" Version="$(AutoMapperVersion)" />
    </ItemGroup>
 </Project>
